@@ -20,14 +20,14 @@
     <style>
         div.background {
             display: table;
-            background: rgb(27, 26, 26);
+            background: rgb(202, 197, 197);
             margin: 6px;
             margin-top: 2%
         }
 
 
         div.background nav {
-            background-color: rgb(34, 33, 33);
+            background-color:rgb(202, 197, 197);
             margin: 4px;
             margin-right: 20em;
         }
@@ -39,10 +39,12 @@
         }
 
         div.background ul li {
-            display: table;
+            display:block;
             background: rgb(27, 26, 26);
             color: darkkhaki;
-            margin: 10px
+            margin: 35px;
+            padding: 35px;
+            font-size: xx-large
         }
 
         div.background li a {
@@ -51,6 +53,9 @@
             color: rgb(138, 38, 38);
             font-weight: bold;
             text-decoration: none;
+        }
+        div.imagen img{
+            width: 100%;
         }
 
         div.letter p {
@@ -77,20 +82,16 @@
             text-align: center;
             border-block-end-style: groove
         }
-
-        div.link a {
-            font-family: 'Imprima', sans-serif;
-            color: blueviolet;
-        }
+    
     </style>
 
     <table>
-        <tr>
+        <td>
             <!-- El contenedor que tendra el menu puede ser solo una seccion ya que no es encabezado -->
-            <div class="background">
+            <div class="background img ">
                 <section>
 
-                    <td><img width="100px" src="img/foodlog.jpg" alt="food">
+                    <img width="90%" src="img/foodlog.jpg" alt="food">
 
                         <!-- Para el menu de navegacion ocupamos un nav -->
 
@@ -115,15 +116,14 @@
 
                 </section>
             </div>
-        </tr>
         </td>
         <!-- Fin del contenedor -->
 
 
 
         <!-- El contenido principal es la entrada de un blog puede estar contenida en un article -->
-        <tr>
-            <td>
+        <td>
+            
                 <div class="letter inic">
                     <article>
                         <h1>A Simple Formula Can Ensure Your Breakfast Keeps You Full Until Lunch Every Day</h1>
@@ -180,7 +180,7 @@
                     </article>
                 </div>
             </td>
-        </tr>
+    
         <!-- Fin del pie de pagina -->
 
     </table>
